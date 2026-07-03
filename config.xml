@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Item>
-<Info ID="1" ServerName="GUNNYLAUPC.NET" Link="gunnylaupc.net" IP="103.92.24.172" fileconfig="config.xml" BaoTri="False" New="True" ThongBao="khuyến mãi x2 đua top nạp thẻ tặng 100% \r\ngiá trị thẻ nạp khi bank 50% thẻ cào" />
-<Info ID="2" ServerName="GUNNYLAU360.NET" Link="gunnylau360.net" IP="103.92.24.132" fileconfig="config.xml" BaoTri="False" New="False" ThongBao="khuyến mãi x2 đua top nạp thẻ tặng 100% \r\ngiá trị thẻ nạp khi bank 50% thẻ cào" />
-<Info ID="3" ServerName="GUNNYMIENPHI.NET"  Link="gunnymienphi.net" IP="103.92.24.178" fileconfig="config.xml" BaoTri="False" New="False" ThongBao="khuyến mãi x2 đua top nạp thẻ tặng 100% \r\ngiá trị thẻ nạp khi bank 50% thẻ cào" />
-
+<Info ID="1" ServerName="GUNNYLAUPC.NET" Link="gunnylaupc.net" IP="103.92.24.172" fileconfig="config.xml" BaoTri="False" New="True" ThongBao="khuyến mãi 500% giá trị cash nạp" />
+<Info ID="2" ServerName="GUNNYLAU360.NET" Link="gunnylau360.net" IP="103.92.24.132" fileconfig="config.xml" BaoTri="False" New="False" ThongBao="khuyến mãi 500% giá trị cash nạp" />
+<Info ID="3" ServerName="GUNNYMIENPHI.NET"  Link="gunnymienphi.net" IP="103.92.24.178" fileconfig="config.xml" BaoTri="False" New="False" ThongBao="khuyến mãi 500% giá trị cash nạp" />
 </Item>
