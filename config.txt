@@ -1,7 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Item>
-<Info ID="1" ServerName="GUNNYLAUPC.NET" Link="gunnylaupc.net" IP="103.92.24.172" fileconfig="config.xml" BaoTri="False" New="True" ThongBao="khuyến mãi x2 đua top nạp thẻ tặng 100% \r\ngiá trị thẻ nạp khi bank 50% thẻ cào" />
-<Info ID="2" ServerName="GUNNYLAU360.NET" Link="gunnylau360.net" IP="103.92.24.132" fileconfig="config.xml" BaoTri="False" New="False" ThongBao="khuyến mãi x2 đua top nạp thẻ tặng 100% \r\ngiá trị thẻ nạp khi bank 50% thẻ cào" />
-<Info ID="3" ServerName="GUNNYMIENPHI.NET"  Link="gunnymienphi.net" IP="103.92.24.178" fileconfig="config.xml" BaoTri="False" New="False" ThongBao="khuyến mãi x2 đua top nạp thẻ tặng 100% \r\ngiá trị thẻ nạp khi bank 50% thẻ cào" />
+#HOST ==> ghi chú: value ==> [0: không làm gì cả, 1: cập nhật dòng theo tên miền, 2; xóa dòng theo tên miền] ==> mở launcher lên nếu value = 1 hãy kiểm tra file host nếu trùng dữ liệu thì thui, nếu khác thì cập nhật ==> value = 2 thì xóa dòng có tên miền ==> kiểm tra xem cần quyền adm ko
+:HOST value = 0
+103.92.25.147	gunnylau360.net
+103.92.24.172	gunnylaupc.net
+103.92.24.178	gunnymienphi.net
+103.92.25.147	gunny360.net
 
-</Item>
+#DNS ==> ghi chú: value ==> [0: không làm gì cả, 1: cập nhật dns] ==> mở launcher lên kiểm tra dns ==> tiến hành update 
+:DNS value = 0
+8.8.8.8
+8.8.4.4
+
+#Cache ==> ghi chú: value ==> [0: không làm gì cả, 1: xóa cache] mở launcher lên tiến hành xóa cache
+:Cache value = 0
+
+#SERVERLIST ==> ghi chú: danh sách server list ==> phân tích theo cấu trúc
+:SERVERLIST
+ID=1;ServerName=GUNNYLAUPC.NET;Link=gunnylaupc.net;IP=103.92.24.172;FileConfig=config.xml;BaoTri=False;New=True;ThongBao=khuyến mãi 500% giá trị cash nạp
+ID=2;ServerName=GUNNY360.NET;Link=gunny360.net;IP=103.92.25.147;FileConfig=config.xml;BaoTri=False;New=False;ThongBao=khuyến mãi 500% giá trị cash nạp
+ID=3;ServerName=GUNNYMIENPHI.NET;Link=gunnymienphi.net;IP=103.92.24.178;FileConfig=config.xml;BaoTri=False;New=False;ThongBao=khuyến mãi 500% giá trị cash nạp
+
+#HTML ==> ghi chú: hiển thị background cho Launcher
+:HTML
+<html><head><meta charset=utf-8></head><body style="background:#CCC;color:blue"><h2><center>DANH SÁCH SERVER<br></center><div style="color:red"><h5>GUNNYPC.NET ==> GUNNYPC.NET<hr>GUNNYMIENPHI.NET ==> GUNNYMIENPHI.NET<hr>GUNNY360.NET ==> GUNNY360.NET <span style="color:#FF3">(*****)</span><br></h5></div><div style="text-align:right">BQT ZALO: 0786 621 458</div></h2></body></html>
+
+#NOTICE ==> ghi chú: hiển thị thông báo
+:NOTICE
+Máy chủ sẽ bảo trì lúc 22:00.
+
+#DOWNLOAD ==> ghi chú: link update Launcher
+:DOWNLOAD
+Launcher=http://gunnymienphi.net/serverconfig/launcher.zip|http://gunny360.net/serverconfig/launcher.zip|http://gunnylaupc.net/serverconfig/launcher.zip|https://raw.githubusercontent.com/GunnnyHotro/GunnyPatch/main/launcher.zip
+
+#CHILD ==> ghi chú: link get danh sách server con
+:CHILD  value = "serverconfig/DanhSachServerLists.php"
